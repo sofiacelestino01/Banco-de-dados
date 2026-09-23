@@ -18,7 +18,7 @@ ulltilizar o comando:
 ```bash
 sudo -u postgres psql
 ```
-A nossa porta é a porta 5432
+A nossa porta é a sporta 5432
 >Com esse comando esse o acesso é feito sem senha, pois o Linux já provou quem você é (root). Autenticação PEER.
 
 Para primeiro acesso alterei a senha:
@@ -33,7 +33,7 @@ Para sair do postgres, comando `\q` (igual o \quit de vários jogos).
 
 ```mermaid
 graph LR
-A[sudo -u postgres psql]--Autenticação-->B[Só funciona entrando dentro do próprio Linux Ubuntu, Debian]
+udo -u postgres psqlA[]--Autenticação-->B[Só funciona entrando dentro do próprio Linux Ubuntu, Debian]
 ```
 
 ```mermaid
